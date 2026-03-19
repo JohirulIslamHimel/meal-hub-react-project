@@ -1,0 +1,17 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.food-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+
+  gap: 20px;
+}
+.foods-container-parent {
+  display: flex;
+  max-width: 1000px;
+  margin: 50px auto;
+  gap: 20px;
+}
